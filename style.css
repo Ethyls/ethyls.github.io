@@ -2,8 +2,9 @@ body {
   background-color: #FBFBFB;
   font-family: 'Roboto', sans-serif;
   color: #361f27;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0px;
   text-align: center;
 }
 
@@ -23,9 +24,12 @@ a {
   color: #7f78d2;
 }
 
+#wurm:hover {
+  color: black;
+}
 
 .container {
-  margin: 0 auto;
+  margin: 0px auto;
   width: 700px;
 }
 
@@ -41,6 +45,9 @@ a {
   box-shadow: 2px 2px 0px #efb1ff
 }
 
+/*#title-card {
+  box-shadow: 2px 2px 0px #EFB1FF;
+}*/
 .img-circle {
   border-radius: 50%;
 }
@@ -96,7 +103,21 @@ a {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 200px;
-    margin: 0 75px;
+    margin: 0px auto;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 150px;
+    margin: 0px auto;
   }
   h1 {
     font-size: 25px;
