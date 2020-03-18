@@ -39,15 +39,17 @@ a {
 
 .card {
   padding: 10px;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background: linear-gradient(150deg, rgba(245,243,243,0) 85%, rgba(239,177,255,1) 100%);
   border-radius : 4px;
   margin: 20px auto 30px auto;
   box-shadow: 2px 2px 0px #efb1ff
 }
 
-/*#title-card {
-  box-shadow: 2px 2px 0px #EFB1FF;
-}*/
+#title-card {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
 .img-circle {
   border-radius: 50%;
 }
