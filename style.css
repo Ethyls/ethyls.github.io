@@ -47,6 +47,7 @@ a {
 
 #profile {
   width: 100px;
+  border: 2px solid #efb1ff;
 }
 
 .inline-class > li {
