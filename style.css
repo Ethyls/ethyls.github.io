@@ -8,6 +8,9 @@ body {
   text-align: center;
 }
 
+.now {
+  color: red;
+}
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   color: #481380;

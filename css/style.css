@@ -28,5 +28,17 @@ a {
 }
 
 
+.now {
+background: linear-gradient(270deg, #ffb929, #29ffbf, #5429ff, #ff29be, #ffb829, #29ff57, #ff8029, #a929ff, #a929ff);
+background-size: 1800% 1800%;
+
+animation: testGradient 0.3s ease infinite;
+}
 /* Custom design below! */
 
+@keyframes testGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+}
