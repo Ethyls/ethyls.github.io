@@ -1,0 +1,39 @@
+/* Your button CSS file */
+
+.btn-inactive {
+  display: inline-block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.btn-inactive:hover {
+  color: #3D3A4B;
+  background-color: #9A7A5A;
+  transition: 0.3s ease;
+}
+
+@media (max-width:900px) {
+  .btn-inactive {
+    padding: 8px 16px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:700px) {
+  .btn-inactive {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width:500px) {
+  .btn-inactive {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}
