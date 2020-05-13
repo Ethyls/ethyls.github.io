@@ -1,1 +1,20 @@
-Clicker !
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Clicker</title>
+</head>
+<body>
+  <p id="score">0</p>
+  <button id="incrementer">Increment</button>
+  <button id="addworker">Add Worker (cost : 100 points)</button>
+  <button id="double-click">Double your clicks ! (cost : 100 points)</button>
+  <p id="output">Current output : 1/s</p>
+  <script src="javascript/clicker.js" type="text/javascript"></script>
+  <script>
+    run();
+    calculateOutput();
+  </script>
+</body>
+</html>
+<!-- I can define functions in js files, import the js files as script and then call the functions within a script tag -->
