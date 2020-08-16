@@ -25,10 +25,89 @@
   width: 100vw;
   height: 100vh;
   background-color: #FEFEFE;
-  display: grid;
-  place-items: center;
   overflow: hidden;
   max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-areas:
+    "picture maintext"
+    "picture maintext"
+    "technos technos"
+}
+
+#home-container2 > #picture {
+  display: grid;
+  grid-area: picture;
+  margin: 50px 50px 50px 100px;
+  place-items: center;
+}
+
+#picture img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px #0DAB8E;
+}
+
+#home-container2 > #maintext {
+  grid-area: maintext;
+  margin: 50px 100px 50px 50px;
+  display: grid;
+  place-items: center;
+}
+
+#maintext p {
+  color: #161925;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  max-width: 100%;
+}
+
+#maintext span {
+  color: #0DAB8E;
+}
+
+#home-container2 > #technos {
+  grid-area: technos;
+  margin: 50px 100px 50px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#technos img {
+  max-height: 80%;
+  max-width: 20%;
+  filter: grayscale(100%);
+  animation: grayscaleblinking 10s ease-in-out infinite;
+}
+
+#technos img:nth-child(2){
+  animation-delay: 2s;
+}
+
+#technos img:nth-child(3){
+  animation-delay: 4s;
+}
+
+#technos img:nth-child(4){
+  animation-delay: 6s;
+}
+
+#technos img:nth-child(5){
+  animation-delay: 8s;
+}
+@keyframes grayscaleblinking{
+  0%{
+    filter: grayscale(100%);
+  }
+  20%{
+    filter: grayscale(0%);
+  }
+  40%{
+    filter: grayscale(100%);
+  }
 }
 
 #home-container3 {
