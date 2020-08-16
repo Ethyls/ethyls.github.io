@@ -217,7 +217,7 @@ body {
 }
 
 #websites img:hover {
-
+  filter: invert(68%) sepia(54%) saturate(7406%) hue-rotate(163deg) brightness(96%) contrast(101%)
 }
 
 .content {
