@@ -123,7 +123,7 @@ a {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "picture maintext"
     "picture maintext"
@@ -139,6 +139,7 @@ a {
 
 #picture img {
   width: 100%;
+  max-height: 100%;
   border-radius: 10px;
   box-shadow: 3px 3px 0px #0DAB8E;
 }
@@ -146,9 +147,9 @@ a {
 #home-container2 > #technos {
   grid-area: technos;
   margin: 50px 100px 50px 100px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 #home-container2 > #maintext {
@@ -174,8 +175,10 @@ a {
 }
 
 #technos img {
-  max-height: 80%;
-  max-width: 20%;
+  max-height: 50%;
+  max-width: 50%;
+  height: 100px;
+  margin: 0 auto;
   filter: grayscale(100%);
   animation: grayscaleblinking 10s ease-in-out infinite;
 }
@@ -264,7 +267,7 @@ a {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "picture"
     "maintext"
@@ -284,7 +287,7 @@ a {
   }
   #technos img {
   max-height: 100%;
-  max-width: 25%;
+  max-width: 100%;
   height: 40px;
   margin: 0 5px;
   padding: 0 5px;
@@ -310,7 +313,7 @@ a {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "picture"
     "maintext"
@@ -330,7 +333,7 @@ a {
   }
   #technos img {
   max-height: 100%;
-  max-width: 25%;
+  max-width: 100%;
   height: 40px;
   margin: 0 5px;
   padding: 0 5px;
@@ -356,15 +359,17 @@ a {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "picture"
     "maintext"
     "technos"
   }
+
   #home-container2 > #picture {
     margin: 100px 250px 25px 250px;
   }
+
   #home-container2 > #maintext {
   grid-area: maintext;
   margin: 0px 50px 50px 50px;
@@ -376,7 +381,7 @@ a {
   }
   #technos img {
   max-height: 100%;
-  max-width: 50%;
+  max-width: 100%;
   height: 80px;
   margin: 0 5px;
   padding: 0 5px;
@@ -399,7 +404,7 @@ a {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "picture maintext"
     "picture maintext"
@@ -419,7 +424,7 @@ a {
   }
   #technos img {
   max-height: 100%;
-  max-width: 50%;
+  max-width: 100%;
   height: 80px;
   margin: 0 5px;
   padding: 0 5px;
