@@ -21,6 +21,7 @@ a {
 #home-container1 pre {
   color: white;
   font-family: 'Raleway', sans-serif;
+  max-width: 85vw;
   font-weight: 400;
   font-size: 60px;
   margin-top: 0;
@@ -258,9 +259,11 @@ a {
     position: relative;
   }
   #home-container1 pre {
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     top: 40%;
+    width: 300px;
+    text-align: center;
   }
   #home-container2 {
   width: 100vw;
@@ -391,7 +394,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
   #contactlogo img {
     width: 150px;
     top: -200px;
