@@ -41,8 +41,6 @@ a {
 
 /*Blinking arrow on main screen */
 #downarrow {
-  position: absolute;
-  bottom: 10%;
   color: white;
   font-size: 50px;
   animation: blinkingarrow 2.4s ease-in-out infinite;
@@ -220,10 +218,6 @@ a {
   max-width: 100%;
 }
 
-#home-container3 p {
-  color: white;
-}
-
 #websites img {
   width: 50px;
   margin: 30px 20px 0px 20px;
@@ -235,6 +229,7 @@ a {
 
 #email {
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 #email:hover {
@@ -256,11 +251,9 @@ a {
     width: 100px;
     top: -200px;
     margin: 0 auto;
-    position: relative;
   }
   #home-container1 pre {
     font-size: 20px;
-    position: absolute;
     top: 40%;
     width: 300px;
     text-align: center;
@@ -306,11 +299,9 @@ a {
     width: 100px;
     top: -200px;
     margin: 0 auto;
-    position: relative;
   }
   #home-container1 pre {
     font-size: 25px;
-    position: absolute;
     top: 40%;
   }
   #home-container2 {
@@ -354,11 +345,9 @@ a {
     width: 150px;
     top: -200px;
     margin: 50px auto;
-    position: relative;
   }
   #home-container1 pre {
     font-size: 32px;
-    position: absolute;
     top: 55%;
   }
   #home-container2 {
@@ -399,11 +388,9 @@ a {
     width: 150px;
     top: -200px;
     margin: 50px auto;
-    position: relative;
   }
   #home-container1 pre {
     font-size: 32px;
-    position: absolute;
     top: 55%;
   }
   #home-container2 {
