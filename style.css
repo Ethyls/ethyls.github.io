@@ -437,5 +437,13 @@ a {
   margin: 0 5px;
   padding: 0 5px;
   }
+  @keyframes falling{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(350px);
+  }
+}
 }
 
