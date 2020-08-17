@@ -146,7 +146,7 @@ a {
 
 #home-container2 > #technos {
   grid-area: technos;
-  margin: 50px 100px 50px 100px;
+  margin: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
